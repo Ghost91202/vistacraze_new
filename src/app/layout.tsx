@@ -27,7 +27,7 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </Head>
-      <body className={inter.className}>
+      <body className={inter.className }>
         <ThemeProvider
           attribute="class"
           defaultTheme="dark"
