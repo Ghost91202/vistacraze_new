@@ -3,12 +3,7 @@ import Logo from "../../../public/logo.png"
 import Image from 'next/image'
 import Link from 'next/link'
 import "./style.css"
-import { RiInstagramFill } from "react-icons/ri";
-import { TiSocialTwitter } from "react-icons/ti";
-import { SlSocialPintarest } from "react-icons/sl";
-import { SlSocialLinkedin } from "react-icons/sl";
-import { SlSocialGithub } from "react-icons/sl";
-import { TiSocialFacebook } from "react-icons/ti";
+
 
 export default function Footer() {
   return (
@@ -36,7 +31,7 @@ export default function Footer() {
 
               <Link className='hover:text-yellow-400/90' href="/">Pricing</Link>
 
-              <Link className='hover:text-yellow-400/90' href="/">Contact</Link>
+              <Link className='hover:text-yellow-400/90' href="/Contact">Contact</Link>
             </div>
           </div>
 
@@ -62,7 +57,7 @@ export default function Footer() {
 
         </div>
 
-       
+
 
         <h6 className='flex items-center text-center  justify-center'>© All Copyright Reserved by VistaCraze Marketing agency.</h6>
       </div>
