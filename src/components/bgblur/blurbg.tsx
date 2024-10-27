@@ -18,8 +18,8 @@ const Blurbg = (props: Props) => {
 
             </div>
 
-            <div className='absolute  top-72  left-0    z-10 flex justify-center items-end bottom-32 w-screen gap-10 sm:gap-5 sm:pb-0  p-5 sm:p-20  '>
-                <div className='flex flex-col text-end backdrop-blur-xl p-10 gap-5 w-1/2 rounded-2xl'>
+            <div className='absolute  top-72  left-0    z-10 flex justify-center items-end bottom-10 sm:bottom-32 w-screen gap-10 sm:gap-5 sm:pb-0  p-5 sm:p-20  '>
+                <div className='flex flex-col text-end backdrop-blur-xl p-10 gap-5 sm:w-1/2 rounded-2xl'>
                     <h1 className='sm:text-4xl text-2xl font-semibold bottom-9 top-44'>UI/UX Design <span className='text-purple-600'>Agency</span></h1>
                     <p className='sm:text-md  pb-5 border-b border-white/30'>User Interface and User Experience Design Agency
                     </p>

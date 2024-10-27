@@ -48,22 +48,20 @@ const RightDrawer: React.FC = () => {
             <Link href="/webdesign" className="flex items-center  backdrop-blur-xl px-2 rounded-md group hover:text-violet-700" onClick={handleLinkClick}>
               Web Design <IoIosArrowRoundForward className="flex items-center transform transition-transform duration-300 ease-in-out group-hover:translate-x-2" />
             </Link>
-            <Link href="/webdevelopment" className="flex items-center  backdrop-blur-xl px-2 rounded-md group hover:text-violet-700" onClick={handleLinkClick}>
-              Web Development <IoIosArrowRoundForward className="flex items-center transform transition-transform duration-300 ease-in-out group-hover:translate-x-2" />
-            </Link>
+
             <Link href="/uiux" className="flex items-center  backdrop-blur-xl px-2 rounded-md group hover:text-violet-700" onClick={handleLinkClick}>
               UI/UX <IoIosArrowRoundForward className="flex items-center transform transition-transform duration-300 ease-in-out group-hover:translate-x-2" />
             </Link>
             <Link href="/seo" className="flex items-center  backdrop-blur-xl px-2 rounded-md group hover:text-violet-700" onClick={handleLinkClick}>
               SEO <IoIosArrowRoundForward className="flex items-center transform transition-transform duration-300 ease-in-out group-hover:translate-x-2" />
             </Link>
-          </div>
-          <Link href="/about" className="flex items-center  backdrop-blur-xl px-2 rounded-md group hover:text-violet-700" onClick={handleLinkClick}>
+          <Link href="/About" className="flex items-center  backdrop-blur-xl px-2 rounded-md group hover:text-violet-700" onClick={handleLinkClick}>
             About <IoIosArrowRoundForward className="flex items-center transform transition-transform duration-300 ease-in-out group-hover:translate-x-2" />
           </Link>
-          <Link href="/contact" className="flex items-center  backdrop-blur-xl px-2 rounded-md group hover:text-violet-700" onClick={handleLinkClick}>
+          <Link href="/Contact" className="flex items-center  backdrop-blur-xl px-2 rounded-md group hover:text-violet-700" onClick={handleLinkClick}>
             Contact <IoIosArrowRoundForward className="flex items-center transform transition-transform duration-300 ease-in-out group-hover:translate-x-2" />
           </Link>
+          </div>
         </div>
       </div>
     </div>

@@ -32,6 +32,24 @@
       "static/chunks/main-app.js",
       "static/css/app/(main)/Contact/page.css",
       "static/chunks/app/(main)/Contact/page.js"
+    ],
+    "/(main)/webdesign/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(main)/webdesign/page.css",
+      "static/chunks/app/(main)/webdesign/page.js"
+    ],
+    "/(main)/uiux/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(main)/uiux/page.css",
+      "static/chunks/app/(main)/uiux/page.js"
+    ],
+    "/(main)/About/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(main)/About/page.css",
+      "static/chunks/app/(main)/About/page.js"
     ]
   }
 }

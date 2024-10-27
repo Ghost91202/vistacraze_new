@@ -790,6 +790,12 @@ video {
 .top-8 {
   top: 2rem;
 }
+.bottom-10 {
+  bottom: 2.5rem;
+}
+.bottom-20 {
+  bottom: 5rem;
+}
 .-z-10 {
   z-index: -10;
 }
@@ -3306,6 +3312,14 @@ svg {
     top: 11rem;
   }
 
+  .sm\:bottom-32 {
+    bottom: 8rem;
+  }
+
+  .sm\:bottom-0 {
+    bottom: 0px;
+  }
+
   .sm\:-ml-20 {
     margin-left: -5rem;
   }
@@ -3488,6 +3502,10 @@ svg {
 
   .sm\:p-5 {
     padding: 1.25rem;
+  }
+
+  .sm\:p-32 {
+    padding: 8rem;
   }
 
   .sm\:px-16 {

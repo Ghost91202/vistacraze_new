@@ -13,9 +13,9 @@ const AboutHero = ( props: Props ) => {
 
             </div>
 
-            <div className='absolute  top-72  left-0 z-10 flex justify-center items-end bottom-32 w-screen gap-10 sm:gap-5 sm:pb-0  p-5 sm:p-20    '>
+            <div className='absolute  top-72  left-0 z-10 flex justify-center items-end bottom-10 sm:bottom-32 w-screen gap-10 sm:gap-5 sm:pb-0  p-5 sm:p-20    '>
 
-                <div className=' flex flex-col  backdrop-blur-xl p-5 sm:p-10 rounded-xl w-1/2 bg-black/10 gap-10 sm:gap-5 '>
+                <div className=' flex flex-col  backdrop-blur-xl p-5 sm:p-10 rounded-xl  sm:w-1/2 bg-black/10 gap-10 sm:gap-5 '>
                     <h6 className=' flex items-start justify-start'>About us</h6>
                     <div className='grid grid-flow-row grid-cols-1 sm:grid-cols-2'>
                         <h1 className='text-4xl sm:text-5xl'>Transforming Businesses with <span className='text-violet-500'>Cutting edge solution</span></h1>
