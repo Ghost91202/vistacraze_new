@@ -30,12 +30,12 @@ const Tabs: React.FC = () => {
                 <p>
                     Curious about how Brand Vision, a leading Web Design Company and Marketing Agency, operates? Explore our FAQ section for a comprehensive understanding of our services and procedures.
                 </p>
-                <Link href="/" className="border-b w-fit pb-2 hover:text-blue-500">
+                <Link href="/" className=" w-fit pb-2 hover:text-blue-500">
                     Let&apos;s Discuss
                 </Link>
             </div>
             <div {...swipeHandlers} className="ring-offset-transparent">
-                <div className="flex border-b xl:text-base text-sm gap-5 border-gray-200">
+                <div className="flex border-b xl:text-base text-sm gap-5 border-gray-400/30">
                     {tabs.map((tab, index) => (
                         <button
                             key={index}
@@ -51,8 +51,8 @@ const Tabs: React.FC = () => {
                         <div className=''>
                             <div>
                                 <Accordion items={[
-                                    { title: 'What is your refund policy?', content: 'Our refund policy is...' },
-                                    { title: 'How do I contact support?', content: 'You can contact support by...' }
+                                    { title: 'How long does it take to develop a website?', content: 'Development time varies but typically ranges from 2-12 weeks based on complexity.' },
+                                    { title: 'What is the cost of website development?', content: 'You can contact support by...' }
                                 ]} />
                             </div>
                             <div>
@@ -67,14 +67,15 @@ const Tabs: React.FC = () => {
                         <div className=' '>
                             <div>
                                 <Accordion items={[
-                                    { title: 'What is your refund ', content: 'Our refund policy is...' },
-                                    { title: 'How do I contact support?', content: 'You can contact support by...' }
+                                    { title: 'How long does it take to develop a website?   ', content: 'Development time varies but typically ranges from 2-12 weeks based on complexity.' },
+                                    { title: 'What is the cost of website development?', content: 'Costs depend on requirements, features, and design; it can range from a few hundred to thousands of dollars.' },
+                                     { title: 'Will my website be mobile-friendly?', content: 'Yes, modern websites are designed to be responsive and accessible on all devices, including mobiles and tablets.' },
+                                    { title: 'Can I update the website content myself?', content: 'Most websites use CMS platforms (like WordPress), enabling easy updates without coding knowledge.' }
                                 ]} />
                             </div>
                             <div>
                                 <Accordion items={[
-                                    { title: 'What is your refund policy?', content: 'Our refund policy is...' },
-                                    { title: 'How do I contact support?', content: 'You can contact support by...' }
+
                                 ]} />
                             </div>
                         </div>
@@ -83,14 +84,14 @@ const Tabs: React.FC = () => {
                         <div className=' '>
                             <div>
                                 <Accordion items={[
-                                    { title: 'What is your refund policy?', content: 'Our refund policy is...' },
-                                    { title: 'How do I contact support?', content: 'You can contact support by...' }
+                                    { title: 'What is branding, and why is it important?', content: 'Branding creates a unique identity, building trust and loyalty with customers.' },
+                                    { title: 'How does branding differ from marketing?', content: 'Branding establishes identity, while marketing promotes it to reach and attract audiences.' }
                                 ]} />
                             </div>
                             <div>
                                 <Accordion items={[
-                                    { title: 'What is your refund policy?', content: 'Our refund policy is...' },
-                                    { title: 'How do I contact support?', content: 'You can contact support by...' }
+                                    { title: 'What elements make up a strong brand?', content: 'A clear message, unique visuals, brand voice, and consistent values form a strong brand.' },
+                                    { title: 'How can branding increase customer loyalty?', content: 'Consistent branding fosters trust, creating emotional connections that enhance customer loyalty.' }
                                 ]} />
                             </div>
                         </div>
@@ -99,14 +100,14 @@ const Tabs: React.FC = () => {
                         <div className=' '>
                             <div>
                                 <Accordion items={[
-                                    { title: 'What is your refund policy?', content: 'Our refund policy is...' },
-                                    { title: 'How do I contact support?', content: 'You can contact support by...' }
+                                    { title: 'What is digital marketing, and how does it differ from traditional marketing?', content: 'Digital marketing uses online channels to promote products, while traditional marketing relies on offline methods.' },
+                                    { title: 'How can I measure the success of my digital marketing campaigns?', content: 'Success can be measured using metrics like website traffic, conversion rates, and ROI.' }
                                 ]} />
                             </div>
                             <div>
                                 <Accordion items={[
-                                    { title: 'What is your refund policy?', content: 'Our refund policy is...' },
-                                    { title: 'How do I contact support?', content: 'You can contact support by...' }
+                                    { title: 'What are the key components of an effective digital marketing strategy?', content: 'Key components include SEO, content marketing, social media, email marketing, and paid advertising.' },
+                                    { title: 'How long does it take to see results from digital marketing efforts?', content: 'Results can vary, but noticeable improvements typically take 3 to 6 months of consistent effort.' }
                                 ]} />
                             </div>
                         </div>

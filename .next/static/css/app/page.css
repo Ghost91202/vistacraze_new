@@ -1,0 +1,75 @@
+/*!**********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/components/cards/stickyCard1.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+    gap: 24px;
+    align-items: center;
+}
+
+.card {
+
+    box-sizing: border-box;
+    position: sticky;
+
+
+}
+
+.one {
+    top: 100px;
+
+}
+
+.two {
+    top: 80px;
+
+}
+
+.three {
+    top: 110px;
+}
+
+.four {
+    top: 140px;
+}
+
+
+.stickycardsbg{
+    background: rgb(145, 0, 255);
+        background: -moz-radial-gradient(circle, rgba(145, 0, 255, 1) 0%, rgba(0, 0, 0, 1) 46%, rgba(0, 0, 0, 1) 93%);
+        background: -webkit-radial-gradient(circle, rgba(145, 0, 255, 1) 0%, rgba(0, 0, 0, 1) 46%, rgba(0, 0, 0, 1) 93%);
+        background: radial-gradient(circle, rgba(145, 0, 255, 1) 0%, rgba(0, 0, 0, 1) 46%, rgba(0, 0, 0, 1) 93%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#9100ff", endColorstr="#000000", GradientType=1);
+}
+
+
+.textcolor{
+    color: linear-gradient(to right top, #051937, #00286d, #2232a3, #6031d5, #a600ff);;
+}
+
+/*!***************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/components/hero/style.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************/
+.herobg{
+    background: rgb(0, 0, 0);
+        background: -moz-linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(0, 48, 255, 1) 94%);
+        background: -webkit-linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(0, 48, 255, 1) 94%);
+        background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(0, 48, 255, 1) 94%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#0030ff", GradientType=1);
+}
+.herobg2{
+background: rgb(0, 0, 0);
+    background: -moz-linear-gradient(0deg, rgba(0, 0, 0, 1) 23%, rgba(0, 48, 255, 0) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(0, 0, 0, 1) 23%, rgba(0, 48, 255, 0) 100%);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 23%, rgba(0, 48, 255, 0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#0030ff", GradientType=1);
+}
+

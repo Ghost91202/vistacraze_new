@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import {  Menu, MenuItem, ProductItem } from "../ui/navbar-menu";
+import { Menu, MenuItem, ProductItem } from "../ui/navbar-menu";
 import { cn } from "@/utils/cn";
 
 import Link from "next/link";
@@ -11,8 +11,8 @@ import Fevicon from "../../../public/fevicon.png"
 //import styles 👇
 import 'react-modern-drawer/dist/index.css'
 import Meeting from "../meeting";
-import  DrawerPlacement  from "./navmobile";
-
+import DrawerPlacement from "./navmobile";
+import Drawer from "./navmobile";
 
 export default function NavbarDemo() {
   return (
@@ -20,15 +20,15 @@ export default function NavbarDemo() {
   );
 }
 
-function Navbar({ className }: { className?: string }) {
-  const [active, setActive] = useState<string | null>(null);
-  const [isOpen, setIsOpen] = React.useState(false)
+function Navbar( { className }: { className?: string } ) {
+  const [ active, setActive ] = useState<string | null>( null );
+  const [ isOpen, setIsOpen ] = React.useState( false )
   const toggleDrawer = () => {
-    setIsOpen((prevState) => !prevState)
+    setIsOpen( ( prevState ) => !prevState )
   }
   return (
     <div
-      className={cn("fixed top-10 reltive items-center flex w-screen  text-white  z-50", className)}
+      className={cn( "fixed top-10 reltive items-center flex w-screen  text-white  z-50", className )}
     >
       <div className="flex flex-row w-screen items-center justify-between  sm:px-20 pt-4 p-3  hover:bg-black/50  backdrop-blur-xl bg-black/20">
         <Link href="/" className="flex gap-2 items-start">
@@ -71,16 +71,7 @@ function Navbar({ className }: { className?: string }) {
                 Listitems5=""
                 Listitems6=""
               />
-              <ProductItem
-                title=""
-                href=""
-                Listitems1=""
-                Listitems2=""
-                Listitems3=""
-                Listitems4=""
-                Listitems5=""
-                Listitems6=""
-              />
+
             </div>
           </MenuItem>
           <div className="flex items-center justify-center text-white hover:underline">
@@ -92,58 +83,21 @@ function Navbar({ className }: { className?: string }) {
           {/* <Link href="/Contact" className="flex items-center py-auto hover:underline">Contact</Link> */}
           <Link href="/Contact" className="flex items-center py-auto hover:underline">Contact</Link>
         </Menu>
-        <Link href="#"  className="text-white sm:flex hidden border rounded-md gap-2   items-center space-x-2 h-8 border-gray-300 justify-center px-2 py-0">
+        <Link href="#" className="text-white sm:flex hidden border rounded-md gap-2   items-center space-x-2 h-8 border-gray-300 justify-center px-2 py-0">
           <span className="relative flex h-3 w-3">
-            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
-            <span className="relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
+            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-purple-400 opacity-75"></span>
+            <span className="relative inline-flex rounded-full h-3 w-3 bg-purple-500"></span>
           </span>
 
-          <Meeting title="schedule a Call"/></Link>
+          <Meeting title="schedule a Call" /></Link>
 
         <div className="sm:hidden flex">
-
-        <DrawerPlacement />
+          <DrawerPlacement />
         </div>
 
       </div>
 
-      <div className="z-0 flex ">
 
-
-        {/* <Drawer
-          open={isOpen}
-          onClose={toggleDrawer}
-          direction='right'
-          className='bla bla bla z-0 bg-red-400'
-        >
-          <div className="flex h-full pb-5 items-start flex-col text-black">
-
-            <div className=" flex flex-col p-2 pt-10 text-2xl gap-5">
-
-              <Link href="/" className="border-b  pb-5">About</Link>
-              <span className="font-semibold" >All services
-                <div className="  flex flex-col pl-4 p-2 gap-3">
-                   <Link href="/webdesign" className="border-b font-normal    pb-5">Web Design</Link>
-              <Link href="/seo" className="border-b font-normal   pb-5">Marketing services</Link>
-              <Link href="/uiux" className="border-b font-normal    pb-5">Branding</Link>
-             </div>
-              </span>
-              <Link href="/" className="border-b  pb-5">Contact</Link>
-              <Link href="/" className="border-b  pb-5">Our package</Link>
-              <Link href="/" className="border-b  pb-5">About</Link>
-
-            </div>
-             <Link href="#"  className="text-black  border rounded-full gap-2 mt-10  items-center h-8 border-gray-300 justify-center px-3 flex text-2xl   py-2">
-          <span className="relative flex h-3 w-3">
-            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
-            <span className="relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
-          </span>
-
-              <Meeting title="schedule a Call"/>
-            </Link>
-          </div>
-        </Drawer> */}
-      </div>
     </div>
   );
 }

@@ -10,9 +10,9 @@ type Props = {}
 
 const Stickycards = (props: Props) => {
     return (
-        <div className='bg-black relative z-10 raleway_font   sm:mt-0 font-sans  h-auto'>
+        <div className='bg-black relative z-10 raleway_font  p-5 sm:mt-0 font-sans  h-auto'>
             <div className='  flex flex-col gap-10 sm:gap-20 sm:pt-40  items-center sm:p-20 '>
-                 <div className='text-4xl  sm:text-9xl  text-white   opacity-20 '>
+                 <div className='text-4xl  sm:text-9xl    text-purple-600  '>
                         Our Services
                     </div>
                 <div className="xl:h-fit h-auto flex flex-col gap-5   relative ">

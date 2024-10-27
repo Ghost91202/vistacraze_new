@@ -126,7 +126,6 @@ export default function Home() {
 
           </div>
         </div>
-{/* <Drawer2/> */}
         <Industries />
         <Testimonials/>
         <Tabs />
