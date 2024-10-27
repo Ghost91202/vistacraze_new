@@ -1,22 +1,22 @@
 import Image from 'next/image'
 import React from 'react'
 import BgIMG from "../../../public/heroimg.png"
-import BgIMG1 from "../../../public/heroimg1.jpg"
+import BgIMG1 from "../../../public/hero_bg.jpg"
 import "./style.css"
 import Link from 'next/link'
 type Props = {}
 
 const Blurbg = (props: Props) => {
     return (
-        <div className='relative bg-black z-10 sm:pb-0 pb-80 h-auto w-screen overflow-x-hidden text-white overflow-hidden'>
+        <div className='relative bg-black z-10 sm:pb-0 pb-80 h-screen w-screen raleway_font overflow-x-hidden text-white overflow-hidden'>
             <div className=' relative h-auto overflow-hidden lg:h-auto'>
-                <Image src={BgIMG1} alt='vi' className='lg:h-auto h-screen' />
+                <Image src={BgIMG1} alt='vistacraze background poster' className='lg:h-screen h-screen w-screen'  />
 
             </div>
 
-                <div className='absolute sm:top-40 top-72  left-0 z-10 flex flex-col  justify-between  w-screen gap-10 sm:gap-5 sm:pb-0  p-5 sm:p-20'>
-                <div className='flex flex-col text-start gap-5 lg:w-96 xl:w-1/2'>
-                    <h1 className='lg:text-5xl xl:text-6xl 2xl:text-7xl md:text-3xl md:bottom-0  text-3xl   bottom-9 '>Empower Business with modern technology solutions
+                <div className='absolute sm:top-40 top-72  left-0 z-10 flex flex-col  justify-between  w-screen gap-10 sm:gap-5 sm:pb-0  p-5 sm:p-20    '>
+                <div className='flex flex-col text-start gap-5 lg:w-1/2 xl:w-1/2'>
+                    <h1 className='lg:text-5xl xl:text-6xl 2xl:text-7xl md:text-3xl md:bottom-0  text-3xl raleway_font   bottom-9 '>Empower Business with modern technology solutions
 </h1>
                     <p className='sm:text-md  pb-10 border-b border-white/30'>
                     </p>

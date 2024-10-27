@@ -2,7 +2,7 @@ import React from 'react'
 import "./style.css"
 import { IoIosCheckmark } from "react-icons/io";
 import Image from 'next/image';
-import SCetch from "../../../../../public/scetch.png"
+import SCetch from "../../../../../public/CnKsdE3rl2U2u8De7EivFf24vNU.png"
 import Uxui7 from "../../../../../public/uxui7.png"
 type Props = {}
 

@@ -30,7 +30,7 @@ function Navbar({ className }: { className?: string }) {
     <div
       className={cn("fixed top-10 reltive items-center flex w-screen  text-white  z-50", className)}
     >
-      <div className="flex flex-row w-screen items-center justify-between  sm:px-20 pt-4 p-3  hover:bg-black/50 border-b border-gray-400/30 backdrop-blur-xl bg-black/20">
+      <div className="flex flex-row w-screen items-center justify-between  sm:px-20 pt-4 p-3  hover:bg-black/50  backdrop-blur-xl bg-black/20">
         <Link href="/" className="flex gap-2 items-start">
           {/* <Image src={Logo} alt="VistaCraze digital marketing agency" width={200} height={100} /> */}
           <Image src={Fevicon} alt="VistaCraze digital marketing agency" width={60} height={100} className="sm:flex" />

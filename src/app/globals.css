@@ -80,6 +80,15 @@ body {
   }
 }
 
+
+
+.raleway_font {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+
+}
+
+
 .cardsbg{
 background: rgb(0, 117, 255);
   background: -moz-radial-gradient(circle, rgba(0, 117, 255, 0.8772759103641457) 3%, rgba(0, 0, 0, 0) 37%);
@@ -153,4 +162,48 @@ background: rgb(0, 117, 255);
   background: -webkit-linear-gradient(0deg, rgba(2, 0, 36, 1) 27%, rgba(12, 12, 250, 0) 95%);
   background: linear-gradient(0deg, rgba(2, 0, 36, 1) 27%, rgba(12, 12, 250, 0) 95%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024", endColorstr="#0c0cfa", GradientType=1);
+}
+
+
+
+
+.center {
+
+  position: absolute;
+}
+
+.btn {
+  width: 100px;
+  height: 60px;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #91C9FF;
+  outline: none;
+  transition: 1s ease-in-out;
+}
+
+svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  fill: none;
+  stroke: #fff;
+  stroke-dasharray: 150 480;
+  stroke-dashoffset: 150;
+  transition: 1s ease-in-out;
+}
+
+.btn:hover {
+  transition: 1s ease-in-out;
+  background: #4F95DA;
+}
+
+.btn:hover svg {
+  stroke-dashoffset: -480;
+}
+
+.btn span {
+  color: white;
+  font-size: 18px;
+  font-weight: 100;
 }

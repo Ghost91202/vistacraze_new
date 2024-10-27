@@ -1,6 +1,4 @@
 import React from "react";
-import NavbarDemo from "@/components/navbar/navbar";
-import Footer from "@/components/footer/footer";
 import { Button } from "@/components/ui/button"
 import { MdModeStandby } from "react-icons/md";
 import { CgDesignmodo } from "react-icons/cg";
@@ -24,7 +22,7 @@ export default function Home() {
 
 
   return (
-    <main className="w-[100vw] overflow-x-hidden">
+    <main className="w-[100vw]   overflow-x-hidden">
       <div className=" text-white">
         <Blurbg />
         <Stickycards />
@@ -56,7 +54,7 @@ export default function Home() {
               <div className="h-full  w-full lg:pt-5 xl:p-20 grid grid-flow-row grid-cols-1 sm:grid-cols-3 gap-10">
                 <div className="h-full w-full bg-violet-600 group hover:bg-violet-600 flex flex-col gap-5 lg:gap-4 justify-between xl:gap-20 p-5 text-white border hover:border-white rounded-3xl ">
                   <div className="flex gap-2 sm:flex-colitems-start justify-start ">
-                    <MdModeStandby className="text-5xl" />
+                    {/* <MdModeStandby className="text-5xl" /> */}
                     <h1 className="text-3xl font-sans">
                       Google Ads
                     </h1>
@@ -69,7 +67,7 @@ export default function Home() {
                 </div>
                 <div className="h-full w-full  flex flex-col hover:shadow-2xl  shadow shadow-gray-200 gap-5 group hover:bg-violet-500  lg:gap-4 justify-between xl:gap-20 p-5 text-white border hover:border-white rounded-3xl ">
                   <div className="flex gap-2 sm:flex-colitems-start justify-start ">
-                    <CgDesignmodo className="text-5xl group-hover:text-white" />
+                    {/* <CgDesignmodo className="text-5xl group-hover:text-white" /> */}
                     <h1 className="text-3xl font-sans group-hover:text-white">
                       Web Design
                     </h1>
@@ -82,7 +80,7 @@ export default function Home() {
                 </div>
                 <div className="h-full w-full  flex flex-col hover:shadow-2xl  shadow shadow-gray-200 gap-5 group hover:bg-violet-500 lg:gap-4 justify-between xl:gap-20 p-5 text-white border hover:border-white rounded-3xl ">
                   <div className="flex gap-2 sm:flex-col items-start justify-start ">
-                    <TbArrowsRandom className="text-5xl group-hover:text-white" />
+                    {/* <TbArrowsRandom className="text-5xl group-hover:text-white" /> */}
                     <h1 className="text-3xl font-sans group-hover:text-white">
                       SEO Services
                     </h1>
@@ -95,7 +93,7 @@ export default function Home() {
                 </div>
                 <div className="h-full w-full  flex flex-col hover:shadow-2xl  shadow shadow-gray-200 gap-5 group hover:bg-violet-500 lg:gap-4 justify-between xl:gap-20 p-5 text-white border hover:border-white rounded-3xl ">
                   <div className="flex gap-2 sm:flex-col items-start justify-start ">
-                    <PiMetaLogoDuotone className="text-5xl group-hover:text-white" />
+                    {/* <PiMetaLogoDuotone className="text-5xl group-hover:text-white" /> */}
                     <h1 className="text-3xl font-sans group-hover:text-white">
                       Meta Marketing
                     </h1>
@@ -111,7 +109,7 @@ export default function Home() {
                 <ThreeDCardDemo />
                 <div className="h-full w-full  flex flex-col hover:shadow-2xl  shadow shadow-gray-200 gap-5 group hover:bg-violet-500 lg:gap-4 justify-between xl:gap-20 p-5 text-white border hover:border-white rounded-3xl ">
                   <div className="flex gap-2 sm:flex-col items-start justify-start ">
-                    <GiIronCross className="text-5xl group-hover:text-white" />
+                    {/* <GiIronCross className="text-5xl group-hover:text-white" /> */}
                     <h1 className="text-3xl font-sans group-hover:text-white">
                       CRO
                     </h1>
@@ -128,9 +126,9 @@ export default function Home() {
 
           </div>
         </div>
-<Drawer2/>
+{/* <Drawer2/> */}
         <Industries />
-        {/* <Testimonials/> */}
+        <Testimonials/>
         <Tabs />
       </div>
     </main>

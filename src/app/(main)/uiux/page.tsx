@@ -26,9 +26,9 @@ export default function Home() {
         })}
       </script>
       </Head>
-    <div >
+    <div className="raleway_font" >
       <Bgblur />
-      <Stickycard2 />
+      {/* <Stickycard2 /> */}
       <Section2 />
       <Section3 />
       <Industries />

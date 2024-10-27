@@ -4,7 +4,7 @@ import "./globals.css";
 import { ThemeProvider } from "@/provider/theme-provider";
 import NavbarDemo from "@/components/navbar/navbar";
 import Footer from "@/components/footer/footer";
-
+import Head from "next/head";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -19,6 +19,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="bg-black w-screen overflow-x-hidden ">
+      <Head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+          rel="stylesheet"
+        />
+      </Head>
       <body className={inter.className}>
         <ThemeProvider
           attribute="class"

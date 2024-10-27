@@ -38,9 +38,9 @@ const Testimonials: React.FC = () => {
     }, []);
 
     return (
-        <div className="relative z-10 w-full bg-gray-100 text-black flex flex-col gap-10 overflow-hidden p-5 lg:p-5 xl:p-10">
+        <div className="relative z-10 w-full  bg-slate-950 text-white flex flex-col gap-10 overflow-hidden p-5 lg:p-5 xl:p-20">
             <div className='flex flex-col gap-5'>
-                <span className='text-sm w-fit px-3 py-1 bg-slate-200 rounded-md'>Testimonials</span>
+                <span className='text-sm w-fit px-3 py-1 bg-purple-600 rounded-xl'>Testimonials</span>
                 <h1 className='xl:w-1/2 lg:w-1/2 text-2xl lg:text-4xl  xl:text-5xl font-semibold'>Never Convinced?
 Hear From Our Clients.</h1>
             </div>
@@ -51,7 +51,7 @@ Hear From Our Clients.</h1>
                             {cards.slice(slideIndex * 3, slideIndex * 3 + 3).map((card) => (
                             <div key={card.id} className="w-full flex flex-col gap-5 sm:w-1/2 lg:w-1/3 p-2">
 
-                                <div className="p-6 flex flex-col gap-5 bg-white m-4 rounded-lg shadow-lg">
+                                <div className="p-6 flex flex-col gap-5 border m-4 rounded-lg shadow-lg">
                                     <h1  className='xl:text-2xl  lg:text-2xl border-l pl-4 '>{card.head}</h1>
 
                                     <div>
@@ -75,7 +75,7 @@ Hear From Our Clients.</h1>
                             {cards.slice(slideIndex * 1, slideIndex * 1 + 1).map((card) => (
                             <div key={card.id} className="w-full flex flex-col gap-5 sm:w-1/2 lg:w-1/3 p-2">
 
-                                <div className="p-6 flex flex-col gap-5 bg-white m-4 rounded-lg shadow-lg">
+                                <div className="p-6 flex flex-col gap-5 border m-4 rounded-lg shadow-lg">
                                     <h1  className='xl:text-2xl  lg:text-2xl border-l pl-4 '>{card.head}</h1>
 
                                     <div>

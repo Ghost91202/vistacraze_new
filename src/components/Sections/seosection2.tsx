@@ -1,5 +1,5 @@
 import React from 'react'
-import Seo from "../../../public/seo.png"
+import Seo from "../../../public/TrbTQ8gSDTFgzJUBQkhOk2hAWOA.jpg"
 import Image from 'next/image'
 import TextReveal from '../gsap/TextReveal'
 
@@ -7,7 +7,7 @@ type Props = {}
 
 const seosection2 = (props: Props) => {
     return (
-        <div className='h-auto relative z-10 lg:h-screen bg-slate-950 text-white grid grid-flow-row grid-cols-1 p-5 lg:grid-cols-2 items-center lg:gap-10 gap-5 lg:p-20'>
+        <div className='h-auto relative z-10 lg:h-screen bg-slate-950 text-white grid grid-flow-row grid-cols-1 p-5 lg:grid-cols-2  gap-10 items-center lg:gap-10 lg:p-32'>
 
             <div className='flex  flex-col gap-10'>
                 <span className=' backdrop-blur-lg bg-gray-700/40 rounded-xl w-fit px-3 py-1 text-sm '>
@@ -46,10 +46,8 @@ const seosection2 = (props: Props) => {
 
                 </div>
             </div>
-            <div className='lg:h-2/3 h-[30vh]  relative overflow-hidden  bg-blue-700/40 rounded-lg p-20'>
-                {/* <Image src={Seo} alt=' vistacraze digital marketing agency' className='rounded-xl z-10 absolute lg:w-[35vw] w-[75vw] h-[40vh] lg:h-[50vh]' /> */}
-                <span className='bg-blue-800/20 absolute w-full h-full top-8 lg:top-14 rounded-lg backdrop-blur-lg left-5 lg:left-8 right-0 z-0 lg:w-[40vw] lg:h-[50vh]'>
-                </span>
+            <div className='flex flex-col gap-10 right-0 ml-32'>
+                <Image src={Seo} alt="SEO Image" width={600} height={400} className='rounded-2xl'/>
             </div>
 
         </div>
