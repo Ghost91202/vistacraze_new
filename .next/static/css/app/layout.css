@@ -3454,6 +3454,10 @@ svg {
     justify-content: center;
   }
 
+  .sm\:justify-around {
+    justify-content: space-around;
+  }
+
   .sm\:gap-10 {
     gap: 2.5rem;
   }
@@ -3585,6 +3589,10 @@ svg {
   .sm\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .sm\:font-semibold {
+    font-weight: 600;
   }
 
   .sm\:backdrop-blur-3xl {

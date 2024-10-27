@@ -21,9 +21,9 @@ export default function Footer() {
         </h2>
         </footer>
         <div className=' grid grid-flow-col  gap-10  lg-gap-0 xl:grid-cols-2 '>
-          <div className='flex flex-col text-2xl  sm:text-4xl  gap-2 sm:flex-col'>
+          <div className='flex flex-col text-xl  sm:text-4xl  gap-2 sm:flex-col'>
 
-            <div className='flex flex-col font-semibold  gap-2 '>
+            <div className='flex flex-col sm:font-semibold  gap-2 '>
               <Link className='hover:text-yellow-400/90' href="/">Home</Link>
               <Link className='hover:text-yellow-400/90' href="/">About</Link>
               <Link className='hover:text-yellow-400/90' href="/"> Work</Link>
@@ -36,7 +36,7 @@ export default function Footer() {
           </div>
 
 
-          <div className='flex xl:flex-row flex-col justify-around tex-xl  sm:text-2xl'>
+          <div className='flex xl:flex-row flex-col items-start justify-start sm:justify-around text-xl  sm:text-2xl'>
 
           <div className='flex flex-col  gap-2 '>
 
