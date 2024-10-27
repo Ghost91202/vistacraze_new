@@ -42,14 +42,7 @@ export default function Home() {
 
 
                 </div>
-                <div className="flex flex-col gap-20 sm:mb-0  mb-20 items-center justify-center">
-                  <div className="flex flex-col text-center sm:w-2/3 sm:items-center sm:justify-center gap-10">
-                    <h1 className="text-3xl sm:text-4xl text-white text-start sm:text-center  ">Digital services to establish, build
-                      or grow your business...</h1>
-                    <p className="text-white font-normal text-justify sm:text-lg">With in-house digital marketing experts based on the coast… we&apos;ve got you covered!</p>
-                    <p className="text-md font-normal text-white/60 sm:text-lg  xl:w-2/3">Whether you&apos;re starting digital marketing for the first time, our looking to elevate upon an existing foundation, our team will work with you. From SEO to paid media and web design, not to mention our killer content services – everything we do is geared towards supporting your business goals.</p>
-                  </div>
-                </div>
+               
               </div>
               <div className="h-full  w-full lg:pt-5 xl:p-20 grid grid-flow-row grid-cols-1 sm:grid-cols-3 gap-10">
                 <div className="h-full w-full bg-violet-600 group hover:bg-violet-600 flex flex-col gap-5 lg:gap-4 justify-between xl:gap-20 p-5 text-white border hover:border-white rounded-3xl ">

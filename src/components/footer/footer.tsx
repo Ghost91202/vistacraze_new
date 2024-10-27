@@ -16,12 +16,12 @@ export default function Footer() {
         </Link>
 
 
-          <h2 className='text-3xl lg:w-1/2 '>
+          <h2 className=' text-xl sm:text-3xl lg:w-1/2 '>
             Vistacraze has full type of potential for your start-up business.
         </h2>
         </footer>
-        <div className=' grid lg:grid-flow-col  gap-10  lg-gap-0 xl:grid-cols-2 '>
-          <div className='flex flex-col text-4xl  gap-2 sm:flex-col'>
+        <div className=' grid grid-flow-col  gap-10  lg-gap-0 xl:grid-cols-2 '>
+          <div className='flex flex-col text-2xl  sm:text-4xl  gap-2 sm:flex-col'>
 
             <div className='flex flex-col font-semibold  gap-2 '>
               <Link className='hover:text-yellow-400/90' href="/">Home</Link>
@@ -36,7 +36,7 @@ export default function Footer() {
           </div>
 
 
-          <div className='flex xl:flex-row flex-col justify-around text-2xl'>
+          <div className='flex xl:flex-row flex-col justify-around tex-xl  sm:text-2xl'>
 
           <div className='flex flex-col  gap-2 '>
 
@@ -47,7 +47,7 @@ export default function Footer() {
               <Link className='hover:text-yellow-400/90' href="/privacy">Privacy Policy</Link>
             </div>
             </div>
-              <div className='flex flex-col gap-2'>
+              <div className=' flex-col gap-2 hidden sm:flex'>
               <Link className='hover:text-yellow-400/90' href="/">LinkedIn</Link>
               <Link className='hover:text-yellow-400/90' href="/career">Instagram</Link>
               <Link className='hover:text-yellow-400/90' href="#faq">facebook</Link>
